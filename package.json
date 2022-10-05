@@ -1,0 +1,39 @@
+{
+  "name": "js-attempts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prestart": "echo \"This is prestart\"",
+    "poststart": "echo \"This is poststart\"",
+    "script-1": "echo \"run script-1\"",
+    "script-2": "echo \"run script-2\"",
+    "all": "npm run script-1 && npm run script-2",
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stan-nikola/js-attempts.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stan-nikola/js-attempts/issues"
+  },
+  "homepage": "https://github.com/stan-nikola/js-attempts#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "joi": "^17.6.1",
+    "shortid": "^2.2.16"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.19.3",
+    "@babel/core": "^7.19.3",
+    "@babel/preset-env": "^7.19.3",
+    "@parcel/transformer-sass": "^2.7.0",
+    "parcel": "^2.7.0"
+  }
+}
