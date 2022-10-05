@@ -1,39 +1,28 @@
 {
-  "name": "js-attempts",
+  "name": "js-22",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "prestart": "echo \"This is prestart\"",
-    "poststart": "echo \"This is poststart\"",
-    "script-1": "echo \"run script-1\"",
-    "script-2": "echo \"run script-2\"",
-    "all": "npm run script-1 && npm run script-2",
-    "start": "parcel",
-    "build": "parcel build"
+    "dev": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /goit-js-hw-07/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/stan-nikola/js-attempts.git"
+    "url": "git+https://github.com/luxplanjay/js-22.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/stan-nikola/js-attempts/issues"
+    "url": "https://github.com/luxplanjay/js-22/issues"
   },
-  "homepage": "https://github.com/stan-nikola/js-attempts#readme",
-  "dependencies": {
-    "express": "^4.18.1",
-    "joi": "^17.6.1",
-    "shortid": "^2.2.16"
-  },
+  "homepage": "https://github.com/luxplanjay/js-22#readme",
   "devDependencies": {
-    "@babel/cli": "^7.19.3",
-    "@babel/core": "^7.19.3",
-    "@babel/preset-env": "^7.19.3",
-    "@parcel/transformer-sass": "^2.7.0",
-    "parcel": "^2.7.0"
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-handlebars-precompile": "^1.0.2"
+  },
+  "dependencies": {
+    "lodash.throttle": "^4.1.1"
   }
 }
