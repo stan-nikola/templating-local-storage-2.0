@@ -5,12 +5,23 @@
   "main": "index.js",
   "scripts": {
     "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /templating-local-storage-2.0/"
+    "build": "parcel build src/*.html "
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/luxplanjay/js-22.git"
   },
+  "customDistStructure": {
+    "config": {
+      ".css": "css",
+      ".js": "js",
+      "images": [
+        ".jpg",
+        ".svg",
+        ".png"
+      ]
+   }
+},
   "keywords": [],
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
   "license": "ISC",
@@ -21,6 +32,7 @@
   "devDependencies": {
     "cssnano": "^4.1.11",
     "parcel-bundler": "^1.12.4",
+    "parcel-plugin-custom-dist-structure": "^1.1.18",
     "parcel-plugin-handlebars-precompile": "^1.0.2",
     "postcss": "^8.4.17"
   },
