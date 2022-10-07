@@ -1,15 +1,15 @@
 {
-  "name": "js-22",
+  "name": "templating-local-storage",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "https://github.com/stan-nikola/templating-local-storage-2.0",
   "scripts": {
     "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html "
+    "build": "parcel build src/*.html --public-url /templating-local-storage-2.0/ "
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/luxplanjay/js-22.git"
+    "url": "git+https://github.com/stan-nikola/templating-local-storage-2.0.git"
   },
   "customDistStructure": {
     "config": {
@@ -28,7 +28,7 @@
   "bugs": {
     "url": "https://github.com/luxplanjay/js-22/issues"
   },
-  "homepage": "https://github.com/luxplanjay/js-22#readme",
+  "homepage": "https://github.com/stan-nikola/templating-local-storage-2.0",
   "devDependencies": {
     "cssnano": "^4.1.11",
     "parcel-bundler": "^1.12.4",
