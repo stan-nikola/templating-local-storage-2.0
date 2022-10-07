@@ -1,10 +1,13 @@
+{{!-- // 1й вариант обращаться по свойству объекта --}}
+{{!-- {{#each colors}} --}}
+
+{{!-- 2й вариант обращаться к массиву  --}}
 {{#each this}}
-  <div class="color-card">
-    <div class="color-swatch" data-hex="{{hex}}" data-rgb="{{rgb}}"
-         style="background-color: {{hex}}"></div>
-    <div class="color-meta">
-      <p>HEX: {{hex}}</p>
-      <p>RGB: {{rgb}}</p>
-    </div>
+<div class="color-card">
+  <div class="color-swatch" data-hex="{{hex}}" data-rgb="{{rgb}}" style="background-color: {{hex}}"></div>
+  <div class="color-meta">
+    <p>HEX: {{hex}}</p>
+    <p>RGB: {{rgb}}</p>
   </div>
+</div>
 {{/each}}

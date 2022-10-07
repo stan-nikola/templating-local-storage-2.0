@@ -1,14 +1,15 @@
 import throttle from 'lodash.throttle';
 import '../css/common.css';
 import '../css/feedback-form.css';
+
 const STORAGE_KEY = 'feedback-msg';
 const refs = {
-  form: document.querySelector('.js-feedback-form'),
-  textarea: document.querySelector('.js-feedback-form textarea'),
+    form: document.querySelector('.js-feedback-form'),
+    textarea: document.querySelector('.js-feedback-form textarea'),
 };
 
 refs.form.addEventListener('submit', onFormSubmit);
-refs.textarea.addEventListener('input', onTextareaInput);
+refs.textarea.addEventListener('input', throttle(onTextareaInput, 200));
 
 populateTextareaOutput();
 /*
@@ -17,12 +18,12 @@ populateTextareaOutput();
  * - Очищаем форму
  */
 function onFormSubmit(evt) {
-  evt.preventDefault();
-  console.log('Submit form');
+    evt.preventDefault();
+    console.log('Submit form');
 
-  // очищаем форму
-  evt.currentTarget.reset();
-  localStorage.removeItem(STORAGE_KEY);
+    // очищаем форму
+    evt.currentTarget.reset();
+    localStorage.removeItem(STORAGE_KEY);
 }
 /*
  * - Получаем значение поля
@@ -30,17 +31,17 @@ function onFormSubmit(evt) {
  * - Можно добавить throttle
  */
 function onTextareaInput(evt) {
-  const message = evt.currentTarget.value;
-  localStorage.setItem(STORAGE_KEY, message);
+    const message = evt.target.value;
+    localStorage.setItem(STORAGE_KEY, message);
 }
 
 function populateTextareaOutput() {
-  const savedMessage = localStorage.getItem(STORAGE_KEY);
+    const savedMessage = localStorage.getItem(STORAGE_KEY);
 
-  if (savedMessage) {
-    console.log(savedMessage);
-    refs.textarea.value = savedMessage;
-  }
+    if (savedMessage) {
+        console.log(savedMessage);
+        refs.textarea.value = savedMessage;
+    }
 }
 /*
  * - Получаем значение из хранилища
@@ -48,7 +49,7 @@ function populateTextareaOutput() {
  */
 
 // Домой
-// сделать так чтобы сохраняло не только сообщение но и имя, и все в одном обьекте
+// сделать так чтобы сохраняло не только сообщение но и имя, и все в одном объекте
 
 // const formData = {};
 

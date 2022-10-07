@@ -5,7 +5,7 @@
     "currency": "Австралийский доллар (AUD)",
     "language": "Английский",
     "population": 24970200,
-    "flag": "https://wikiway.com/upload/iblock/742/800pxFlagofAustraliasvg.png",
+    "flag": "https://cdn.pixabay.com/photo/2016/04/16/11/45/australian-flag-1332908_960_720.png",
     "infected": false
   },
   {
@@ -14,7 +14,7 @@
     "currency": "Боливиано (BOB)",
     "language": "Испанский, кечуа, аймара, гуарани",
     "population": 10461053,
-    "flag": "https://wikiway.com/upload/iblock/5ed/800px-Flag_of_Bolivia.png",
+    "flag": "https://png.pngtree.com/png-vector/20210910/ourlarge/pngtree-bolivia-flag-png-image_3919279.jpg",
     "infected": true
   },
   {
@@ -23,7 +23,7 @@
     "currency": "Фунт стерлингов (GBP)",
     "language": "Английский",
     "population": 63395574,
-    "flag": "https://wikiway.com/upload/iblock/5ec/800px-Flag_of_the_United_Kingdom_svg.png",
+    "flag": "https://w7.pngwing.com/pngs/963/454/png-transparent-united-kingdom-flag-waving-art-flag-of-england-flag-of-the-united-kingdom-flag-of-great-britain-united-kingdom-english-flag-united-kingdom.png",
     "infected": false
   },
   {
@@ -32,7 +32,7 @@
     "currency": "Ямайский доллар (JMD)",
     "language": "Английский",
     "population": 2868380,
-    "flag": "https://wikiway.com/upload/iblock/b83/600px-Flag_of_Jamaica_svg.png",
+    "flag": "https://w7.pngwing.com/pngs/373/183/png-transparent-independence-of-jamaica-flag-of-jamaica-flag-miscellaneous-flag-logo.png",
     "infected": false
   },
   {
@@ -41,7 +41,7 @@
     "currency": "Шведская крона (SEK)",
     "language": "Шведский",
     "population": 9723809,
-    "flag": "https://wikiway.com/upload/iblock/5e3/800px-Flag_of_Sweden_svg.png",
+    "flag": "https://w7.pngwing.com/pngs/725/1011/png-transparent-flag-of-sweden-vastergotland-swedish-coat-of-arms-of-sweden-flag-miscellaneous-blue-flag.png",
     "infected": true
   },
   {
@@ -50,7 +50,7 @@
     "currency": "Евро (EUR)",
     "language": "Португальский",
     "population": 10799270,
-    "flag": "https://wikiway.com/upload/iblock/2b1/600px-Flag_of_Portugal_svg.png",
+    "flag": "https://img.freepik.com/premium-photo/portugal-flag-made-of-metallic-brush-paint-on-grunge-dark-wall_1379-2563.jpg",
     "infected": true
   }
 ]

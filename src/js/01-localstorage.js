@@ -1,3 +1,4 @@
+// import '../css/common.css';
 // const dog = {
 //   name: 'Mango',
 //   age: 3,
@@ -15,8 +16,8 @@
 console.log(localStorage);
 // можно передать одну сущность
 localStorage.setItem(
-  'my-data',
-  JSON.stringify({ name: 'Polly', age: 2, isHappy: true }),
+    'my-data',
+    JSON.stringify({ name: 'Polly', age: 2, isHappy: true }),
 );
 
 const savedData = localStorage.getItem('my-data');
